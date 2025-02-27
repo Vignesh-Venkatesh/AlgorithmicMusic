@@ -1,0 +1,108 @@
+import * as Tone from "tone";
+// importing the samples
+export const piano_sampler = new Tone.Sampler({
+  C1: "samples/piano/C1.mp3",
+  "C#1": "samples/piano/Cs1.mp3",
+  D1: "samples/piano/D1.mp3",
+  "D#1": "samples/piano/Ds1.mp3",
+  E1: "samples/piano/E1.mp3",
+  F1: "samples/piano/F1.mp3",
+  "F#1": "samples/piano/Fs1.mp3",
+  G1: "samples/piano/G1.mp3",
+  "G#1": "samples/piano/Gs1.mp3",
+  A1: "samples/piano/A1.mp3",
+  "A#1": "samples/piano/As1.mp3",
+  B1: "samples/piano/B1.mp3",
+
+  C2: "samples/piano/C2.mp3",
+  "C#2": "samples/piano/Cs2.mp3",
+  D2: "samples/piano/D2.mp3",
+  "D#2": "samples/piano/Ds2.mp3",
+  E2: "samples/piano/E2.mp3",
+  F2: "samples/piano/F2.mp3",
+  "F#2": "samples/piano/Fs2.mp3",
+  G2: "samples/piano/G2.mp3",
+  "G#2": "samples/piano/Gs2.mp3",
+  A2: "samples/piano/A2.mp3",
+  "A#2": "samples/piano/As2.mp3",
+  B2: "samples/piano/B2.mp3",
+
+  C3: "samples/piano/C3.mp3",
+  "C#3": "samples/piano/Cs3.mp3",
+  D3: "samples/piano/D3.mp3",
+  "D#3": "samples/piano/Ds3.mp3",
+  E3: "samples/piano/E3.mp3",
+  F3: "samples/piano/F3.mp3",
+  "F#3": "samples/piano/Fs3.mp3",
+  G3: "samples/piano/G3.mp3",
+  "G#3": "samples/piano/Gs3.mp3",
+  A3: "samples/piano/A3.mp3",
+  "A#3": "samples/piano/As3.mp3",
+  B3: "samples/piano/B3.mp3",
+
+  C4: "samples/piano/C4.mp3",
+  "C#4": "samples/piano/Cs4.mp3",
+  D4: "samples/piano/D4.mp3",
+  "D#4": "samples/piano/Ds4.mp3",
+  E4: "samples/piano/E4.mp3",
+  F4: "samples/piano/F4.mp3",
+  "F#4": "samples/piano/Fs4.mp3",
+  G4: "samples/piano/G4.mp3",
+  "G#4": "samples/piano/Gs4.mp3",
+  A4: "samples/piano/A4.mp3",
+  "A#4": "samples/piano/As4.mp3",
+  B4: "samples/piano/B4.mp3",
+
+  C5: "samples/piano/C5.mp3",
+  "C#5": "samples/piano/Cs5.mp3",
+  D5: "samples/piano/D5.mp3",
+  "D#5": "samples/piano/Ds5.mp3",
+  E5: "samples/piano/E5.mp3",
+  F5: "samples/piano/F5.mp3",
+  "F#5": "samples/piano/Fs5.mp3",
+  G5: "samples/piano/G5.mp3",
+  "G#5": "samples/piano/Gs5.mp3",
+  A5: "samples/piano/A5.mp3",
+  "A#5": "samples/piano/As5.mp3",
+  B5: "samples/piano/B5.mp3",
+
+  C6: "samples/piano/C6.mp3",
+  "C#6": "samples/piano/Cs6.mp3",
+  D6: "samples/piano/D6.mp3",
+  "D#6": "samples/piano/Ds6.mp3",
+  E6: "samples/piano/E6.mp3",
+  F6: "samples/piano/F6.mp3",
+  "F#6": "samples/piano/Fs6.mp3",
+  G6: "samples/piano/G6.mp3",
+  "G#6": "samples/piano/Gs6.mp3",
+  A6: "samples/piano/A6.mp3",
+  "A#6": "samples/piano/As6.mp3",
+  B6: "samples/piano/B6.mp3",
+
+  C7: "samples/piano/C7.mp3",
+  "C#7": "samples/piano/Cs7.mp3",
+  D7: "samples/piano/D7.mp3",
+  "D#7": "samples/piano/Ds7.mp3",
+  E7: "samples/piano/E7.mp3",
+  F7: "samples/piano/F7.mp3",
+  "F#7": "samples/piano/Fs7.mp3",
+  G7: "samples/piano/G7.mp3",
+  "G#7": "samples/piano/Gs7.mp3",
+  A7: "samples/piano/A7.mp3",
+  "A#7": "samples/piano/As7.mp3",
+  B7: "samples/piano/B7.mp3",
+
+  C8: "samples/piano/C8.mp3",
+});
+
+export const kick_sampler = new Tone.Sampler({
+  C1: "samples/kick/kick.wav",
+});
+
+export const hihat_sampler = new Tone.Sampler({
+  C1: "samples/hihat/hihat.wav",
+});
+
+export const snare_sampler = new Tone.Sampler({
+  C1: "samples/snare/snare.wav",
+});
